@@ -25,7 +25,7 @@ There are 3 parts to the entire model: The Encoder, The Decoder, The Attention L
    2. The Decoder - Is an LSTM model that takes in the learned neural network parameters from The Encoder **and** the 1st to 2nd last word of the text summary data to learn the patterns of the summary **given/with respect to** the full text review
    3. The Attention Layer - Adjusts the attention of The Decoder based on the contextual understanding of **both** the full text review and the full text summary. The intuition behind the Attention Layer is basically finding and focusing on the essence of the question or text. For example, if the question was, "What animal do you like?", simply focusing on the word 'animal' would get you to consider all animals for this context. Thereafter, focusing on the word 'like' would get you to answer with your favorite animal straightaway. Hence, instead of fully considering all 5 words, by focusing on less than half the question and 'blurring' the rest, we are able to generate a response already.
    
-![Flowchart]()
+![Flowchart](https://github.com/jaotheboss/Abstractive-Summarisation/blob/master/Abstractive%20Summarisation%20Flowchart.png)
 
 The flowchart above aims to show a super simplistic perspective of how the absractive summarisation model works. 
 
