@@ -304,7 +304,8 @@ model.compile(optimizer = 'rmsprop',
 
 early_stop = EarlyStopping(monitor = 'val_loss',
                             mode = 'min', 
-                            verbose = 1)
+                            verbose = 1,
+                            patience = 1)
 
 history = model.fit(
        [train_x, train_y[:, :-1]],
