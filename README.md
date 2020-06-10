@@ -1,6 +1,8 @@
 # Abstractive-Summarisation
 Using a deep learning model that takes advantage of LSTM and a custom Attention layer, we create an algorithm that is able to train on reviews and existent summaries to churn out and generate brand new summaries of its own.
 
+![Header Image](https://github.com/jaotheboss/Abstractive-Summarisation/blob/master/result_example.png)
+
 ## Objective:
 To be able to generate new sentences of summaries in order to create a more smooth flowing reading experience.
 
