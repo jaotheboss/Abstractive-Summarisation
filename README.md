@@ -31,9 +31,9 @@ There are 3 parts to the entire model: The Encoder, The Decoder, The Attention L
 
 The flowchart above aims to show a super simplistic perspective of how the absractive summarisation model works. 
 
-## To-do List:
-- [ ] Work on other kinds of text instead of reviews
-- [ ] Adjust parameters to improve performance
+## Reflection:
+- There are definitely better ways to abstractively summarise text using unsupervised means. However, this method still seems to be at the basis of how to work on a seq2seq model. 
+- Translation can be considered for this particular model.
 
 ## Current Performance Enhancing Strategies:
 - Cutting out unique words. About 80% of the unique words in the reviews and summaries occur less than 4-5 times. Having said that, the remaining 20% of unique words cover about 90% of the reviews and summaries. Hence, we are able to cut down on the vocabulary size by 80% while keeping 90% of the data. 
