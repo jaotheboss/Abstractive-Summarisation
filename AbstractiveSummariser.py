@@ -21,12 +21,8 @@ The predicting/inference process:
 6. Repeat step 3 to 5 till step 4 generates the <end> token or the maximum length of the target sequence is met
 
 """
-
-import os
-os.chdir('/Users/jaoming/Documents/Active Projects/Abstractive Summarisation')
-
 # importing relevant modules
-from attention import AttentionLayer             # NN layer that helps pay attention to more important words
+from utils.attention import AttentionLayer             # NN layer that helps pay attention to more important words
 
 import numpy as np
 import pandas as pd
